@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slide-box{
+    width: 95%;
+    height: 230px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top:80px;
+    background: #FFF8F3;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+
+}
+.post-anime{
+    height: 200px;
+    width: 95%;
+    
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-family: "Noto Serif Bengali", serif;
+    overflow: hidden;
+}
+.items{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+}
+.items img{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+.items h2 a{
+    text-decoration: none;
+    position: absolute;
+    color: #F7F9F2;
+    bottom: 0;
+    left: 5px;
+    text-shadow: 0px 0px 15px  black;
+    font-weight: 600;
+    
+}
+.items h2 a:hover{
+    color: rgba(1000,1000,1000,0.7);
+}
+@media screen and (min-width:780px){
+    .slide-box{
+        height: 280px;
+    }
+    .post-anime{
+        height: 250px;
+    }
+    .items{
+        height: 250px;
+    }
+    .items img{
+        height: 250px;
+    }
+}
+@media screen and (min-width:1080px){
+    .slide-box{
+        width: ;
+    }
+}

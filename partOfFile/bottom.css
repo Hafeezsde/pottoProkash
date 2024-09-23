@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.bottom{
+    height: 250px;
+    width: 100%;
+    background: #000;
+}
+.up-bottom{
+    display: flex;
+    
+}
+.bottom-manu{
+    height: 160px;
+    width: 50%;
+    margin-top: 20px;
+}
+.bottom-manu h5{
+    margin: 5px;
+    margin-left:30px;
+    
+}
+.bottom-manu h5 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bottom-manu h5 a:hover{
+    color: gold;
+}
+.down-bottom a img{
+    margin: auto;
+    display: flex;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.copy img{
+    width: 15px;
+    margin: 5px;
+}
+.down-bottom h6{
+    margin-top: 5px;
+    color: aliceblue;
+}
+@media screen and (min-width:980px){
+    .bottom{
+        z-index:;
+    }
+}

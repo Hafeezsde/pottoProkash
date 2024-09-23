@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{   
+    
+}
+.post-content{
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+    font-family: "Noto Serif Bengali", serif;
+}
+.post-content h1{
+    margin: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.post-content h2{
+    margin: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-weight: 800;
+}
+.post-content h3{
+    margin: 10px;
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: 800;
+}
+.post-content h4{
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 800;
+}
+.post-content h5{
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 800;
+}
+.post-content h6{
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.post-content p{
+    text-align: justify;
+    margin: 10px;
+    font-size: ;
+    
+    font-weight: 400;
+    
+}
+.image-box{
+    height: auto;
+    max-width: 500px;
+    background: ;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.single-image{
+    height: 200px;
+    max-width: 500px;
+    background: #0f100f;
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.single-image img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.duble-image-box{
+    height: auto;
+    max-width: 700px;
+    background: ;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.duble-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.image2{
+    height: 200px;
+    max-width: 350px;
+    background: #0f100f;
+    border-radius: 10px;
+    margin: 10px;
+}
+.image2 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.h-flex{
+    display: flex;
+    justify-content: space-evenly
+}
+.text-box{
+    height: auto;
+    width: 48%;
+}
+.text-link a{
+    text-decoration: none;
+    color:limegreen;
+}
+.text-link a:hover{
+    color: gold;
+}
+.english{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.quate{
+    text-decoration-style: etalick;
+}
+@media screen and (min-width:980px){
+    .post-content-box{
+        width:80%;
+    }
+}
