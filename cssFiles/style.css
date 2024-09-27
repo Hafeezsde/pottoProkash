@@ -58,10 +58,18 @@ body{
         display: none;
     }
     .manu{
-        display: block;
-        height: 100lvh;
-        width: 20%;
-        border-radius: 1px;
+        display: initial;
+        background:none;
+        position: absolute;
+        margin: auto;
+        margin-top:0 ;
+        left: 0;
+        right: 0px;
+        
+    }
+    .manu ul{
+        display: flex;
+        
     }
 }
 
